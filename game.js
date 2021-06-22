@@ -5,7 +5,7 @@ var level = 0;
 var started = false;
 
 // this will start the program with click
-$(document).bind("keypress touch-start",function(){
+$(document).bind("keypress touchstart",function(){
   if(!started) {
     $("#level-title").text("Level "+level);
     nextSequence();
